@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Materialize Theme</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="transparent">
+            <div class="nav-wrapper white-text container">
+                <a class="brand-logo">Quazzu</a>
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="http://127.0.0.1:5500/qauzzu/index.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/qauzzu/solutions.html">Solutions</a></li>
+                    <li><a href="http://127.0.0.1:5500/qauzzu/signup.html" class="active-link">SignUp</a></li>
+                    <li><a class="purple btn modal-trigger" href="#Login">Login</a></li>
+                    <li><a><i class="fa fa-users grey-text darken-4"></i></a></li>
+                    <li><a><i class="fa fa-home grey-text darken-4"></i></a></li>
+                    <li><a><i class="fa fa-cog grey-text darken-4"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+        <div class="container desc">
+            <div class="row">
+                <div class="col sm12 m10 center offset-m1">
+                    <h5>Welcome to Quazzu</h5>
+                    <h2>Create An Account</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <ul class="side-nav" id="mobile-nav">
+        <h4 class="purple-text text-darken-4 center">Quazzu</h4>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fa fa-home grey-text text-darken-4"></i> Home</a>
+        </li>
+        <li>
+          <a href="solutions.html">
+            <i class="fa fa-cog grey-text text-darken-4"></i> Solutions</a>
+        </li>
+        <li>
+          <a class="active-link" href="signup.html" class="modal-trigger" href="#Login">
+            <i class="fa fa-users purple-text text-lighten-1"></i> Sign Up</a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li>
+          <a href="#" class="btn purple">Login</a>
+        </li>
+      </ul>
+
+
+    <div id="Login" class="modal">
+        <div class="modal-content">
+            <h4>Account Login</h4>
+            <span>Login To Access Your Account Dashboard</span>
+        </div>
+        <form class="center">
+            <div class="input-field">
+                <label for="modalEmail">Email</label>
+                <input type="email" id="modalEmail">
+            </div>
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+        </form>
+        <div class="modal-footer">
+            <a class="btn grey darken-2"><i class="material-icons left">refresh</i>Reset Password</a>
+            <a class="btn deep-purple"><i class="material-icons left">lock</i>Login</a>
+        </div>
+    </div>
+
+    <section class="section section-signup">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="myDiv">
+                        <h4>Get a Free Account</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maxime vitae qui, consequatur ut
+                            sed illo fugit repellat omnis dolores!</p>
+                    </div>
+                    <div class="myDiv">
+                        <h4>Download The Software</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maxime vitae qui, consequatur ut
+                            sed illo fugit repellat omnis dolores!</p>
+                    </div>
+                    <div class="myDiv">
+                        <h4>Push To The Platform</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maxime vitae qui, consequatur ut
+                            sed illo fugit repellat omnis dolores!</p>
+                    </div>
+                </div>
+                <div class="col s12 m5 offset-m1 grey lighten-3">
+                    <form>
+                        <div class="input-field">
+                            <label for="username">Username</label>
+                            <input type="text" id="username">
+                        </div>
+                        <div class="input-field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="input-field">
+                            <label for="pass">Password</label>
+                            <input type="password" id="pass">
+                        </div>
+                        <div class="input-field">
+                            <label for="company">Company</label>
+                            <input type="text" id="company">
+                        </div>
+                        <div class="input-field">
+                            <select id="select">
+                                <option value="" disabled>Select Role</option>
+                                <option value="professional">Professional</option>
+                                <option value="hobbyist">Hobbyist</option>
+                                <option value="student">Student</option>
+                                <option value="manager">Manager</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="select">Role</label>
+                        </div>
+                        <button class="btn btn-large purple waves-effect waves-light extend-btn">SignUp</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer deep-purple lighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">About US</h5>
+                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ratione, nihil?
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Solutions</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Signup</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright deep-purple darken-1">
+            <div class="container"> Quazzu
+                © 2021
+                <a class="grey-text text-lighten-4 right" href="#!">Term & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Custom JS & jQuery here
+            $('.modal').modal();
+            $('select').material_select()
+            $('.button-collapse').sideNav()
+        });
+    </script>
+</body>
+
+</html>

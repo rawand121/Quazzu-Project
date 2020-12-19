@@ -1,0 +1,101 @@
+.main-header {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.active-link {
+  color: #d847f1 !important;
+  font-weight: bold;
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+.desc {
+  margin-top: 100px;
+}
+
+.cardsSection {
+  margin-top: 30px;
+}
+
+.developer-section {
+  background-image: url('../img/code.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-top: 5px solid #333;
+  border-bottom: 5px solid #333;
+  min-height: 170px;
+}
+
+.align-overlay {
+  background-color: rgba(112, 81, 176, .7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.languages-section h4{
+  margin-bottom: 60px !important;
+}
+
+.modal .input-field{
+  width: 90% !important;
+  margin-left: 20px !important;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+  color:#673ab7 ;
+}
+
+.tabs .tab a{
+  color: #673ab7 ;
+}
+
+.tabs .indicator{
+  background-color:#673ab7 !important;
+}
+
+.section-features h5{
+  display: inline;
+}
+
+.section-features .row div{
+  margin: 20px 0;
+}
+.contactEmail{
+  display: flex;
+  justify-content: center;
+}
+.contactEmail::before{
+  content: '';
+  width: 3px;
+  height: 17px;
+  background-color: #9c27b0 ;
+  margin-right: 3px;
+  margin-top: 2px;
+}
+.section-signup{
+  padding: 50px 0;
+}
+.myDiv{
+  margin: 30px 0;
+}
+
+.extend-btn{
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+}
